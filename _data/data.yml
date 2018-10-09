@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Nandan Lahurikar
+    tagline: Data Scientist
+    avatar: NandanLahurikar.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: nandanlahurikar@gmail.com
+    phone: 248 425 6730
+    #website: blog.webjeda.com #do not add http://
+    linkedin: nandanlahurikar
+    github: nandanlahurikar
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+
+
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Self-Driven, energetic data scientist with proven records of manipulating large dataset, developing machine learning and deep learning algorithms for the business goals. Proficient at multitasking, possess good teamwork skills, ability to work in fast paced startup and out of box thinking to get things done makes me excellent fit in dynamic versatile environment.
+      Proficient in statistical modeling and machine learning techniques in classification and regression problems.
+
+      Expertise in Data mining tools like, Python, R.
+      Develop machine learning algorithms on structural and unstructured data.
+      Experience in data visualization using Tableau, Pyplot, Matplotlib and Seaborn.
+      Experience with computer vision, deep neural network, OpenCV.
+
+
+
+
+Education:
+    - degree: MS in Electrical Engineering
+      university: Clelveland State University
+      time: 2015 - 2016
+       - Bullet point
+       - Bullet point
+
+    - Degree: BE in Electronics and Telecommunication
+      university: Bristol University
+      time: 2007 - 2013
+       - Bullet point
+       - Bullet point
+
+
+experiences:
+    - role: Data Scientist
+      time: 2017 - Present
+      company: Soothsayer Analytics, Livonia MI
+      details: |
+        Built linear regression model on the scores 20K students and predicted 75% improvement in students’ progress.
+        Advised client to improve the program by fostering reading in the specific community within the state.
+        Developed data visualization models and tableau dashboards to present the client with business insights.
+        Used pandas, numpy, seaborn, matplotlib, scikit-learn in python for developing various machine learning models and utilized algorithms such as linear regression, xgboost, logistic regression, decision tree and SVM.
+        Remove outliers in the data using standard deviation.
+        Used cross-validation to test the models with different batches of data to optimize the models and prevent overfitting.
+        Developed end to end image classification pipeline to categorize connector’s position in to 3 classes.
+        Designed deep neural network from scratch using convolutional layers, pooling layers, dropout, filters and fully connected layers. Improved model accuracy by 20 % using data augmentation.
+        Helped client to achieve better output with 95% accuracy.
+
+
+
+
+
+
+
+
+
+projects:
+    title: Projects
+
+
+    assignments:
+      - title: Vehicle Detection and Tracking
+        link: "https://github.com/nandanlahurikar/Vehicle-Detection-and-Tracking/blob/master/CarND-Vehicle-Detection%20Soln.ipynb"
+        tagline: "Applied different feature extraction technique such as HOG and color spaces to identify car in an image.
+                  Designed Classifier that distinguish  from car images from no car images. (Images-feature extractor-algorithm).
+                  Used sliding window technique to detect car in an image, Applied bounding boxes that will detect car while coming ongoing.
+                  Used heat map to detect the false positive, heat map assign 1 each time it detects a car, averaging this detection over certain mapping make it either hot or cool.
+"
+
+      - title: Advance Lane Detection
+        link: "https://github.com/nandanlahurikar/Advance-Lane-Finding"
+        tagline: "Built an algorithm that detects lanes of road. Used camera calibration, color thresholding, and a perspective transform technique to detect road lanes.
+                  Improved further lane detection by implementing curve fitting and sliding window.
+                  Identified lane curvature and vehicle displacement. Overcame environmental challenges such as shadows and pavement changes.
+"
+
+      - title: Traffic Sign Classification
+        link: "https://github.com/nandanlahurikar/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb"
+        tagline: "Built and trained a CNN to classify traffic signs and  optimized network using top 5 predictions.
+                  Successfully tested images around 93% validation accuracy by overcoming data and over fitting challenges."
+
+      - title: Deep Learning to Clone Driving Behavior
+        link: "https://github.com/nandanlahurikar/Behavioral-Cloning"
+        tagline: "Controlled steering angle for end-to-end driving using CNN, optimized network by regularization and dropout.
+                  Overcame control challenges by pre-processing images, generalized the network for driving on multiple tracks."
+
+
+
+
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        #level: 98%
+
+      - name: C++
+        #level: 98%
+
+      - name: R
+
+      - name: SQL
+
+      
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
